@@ -1,0 +1,9 @@
+Considering our requirements for this app, we are going to generate levels rather then design them.
+
+This will be don by creating a level modularly, with sections referred to as chunks; each chunk will be predesignated.
+We will then place the chunks randomly to create a level.
+
+To do this we need a startPoint, exitPoint, chunkLoadTrigger and killPlaneTrigger; we will implement this via a Level Generator class.]
+
+Methods for this class include: AddChunk to place a chunk, RemoveOldestChunk do delete a chunk to save memory,
+RemoveAllChunks to clear the level, GenerateInitChunks to initialize starting chunks.
